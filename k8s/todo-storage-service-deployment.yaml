@@ -22,7 +22,7 @@ spec:
     spec:
       restartPolicy: Always
       containers:
-      - image: mbenhaddou/todo-storage-service:1.0
+      - image: gravitonian/todo-storage-service:1.0
         name: todo-storage-service
         envFrom:
           - configMapRef:

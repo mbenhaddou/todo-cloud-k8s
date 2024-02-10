@@ -23,7 +23,7 @@ spec:
       restartPolicy: Always
       containers:
       - name: todo-cache-service
-        image: mbenhaddou/todo-cache-service:1.0
+        image: gravitonian/todo-cache-service:1.0
         envFrom:
           - configMapRef:
               name: todo-config
